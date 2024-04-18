@@ -5,3 +5,4 @@ streamlit_timeline==0.0.2
 nltk==3.8.1
 pypdf==4.2.0
 python_dotenv==1.0.1
+pandas==2.2.2
