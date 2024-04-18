@@ -1,0 +1,7 @@
+llama_index==0.10.30
+streamlit==1.33.0
+streamlit_lottie==0.0.5
+streamlit_timeline==0.0.2
+nltk==3.8.1
+pypdf==4.2.0
+python_dotenv==1.0.1
