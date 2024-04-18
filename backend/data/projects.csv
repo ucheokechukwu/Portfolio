@@ -1,0 +1,11 @@
+title;description;url;image
+Yelp Chatbot on Streamlit;LLM RAG chatbot that queries structured and unstructured data on Yelp datasets with OpenAI and GraphQL. Based on LangChain, and hosted on Streamlit. FastAPI backend. Also integrates a geodistancing API for routing information;https://yelp-chatbot.streamlit.app/;yelp.png
+SQL Chatbot;An LLM chatbot based on LangChain and OpenAI, to query an AWS-hosted SQL server. Hosted on Streamlit. Also implemented with Chainlit;https://chatbotsql.streamlit.app/;sql.png
+Automated Bank Loan Decision Making Bot;XGBoost binary classifier, with AWS cloud deployment;http://ec2-3-145-177-87.us-east-2.compute.amazonaws.com:8000/;bankloan.png
+TraderBot;Using Deep Learning and Reinforcement Learning for Stock Prediction and Trading;http://ec2-18-225-249-158.us-east-2.compute.amazonaws.com:8000/;trader.png
+Portfolio Website on Streamlit(a.k.a here 😂);Amongst other packages and tools, this app uses the LLama-Index query engine with OpenAI-based for document querying;https://streamlit.io/;streamlit.png
+Yelp Review Study;Data collection, experimentation and analysis for Originality.ai's AI Content detector;https://github.com/OriginalityAI/Yelp-Reviews-Study;yelpreview.png
+Fact Checker Study;A multi-part data science study: building 5 LLM Claims Datasets, assessing the performance of an NLP-based fact checker tool for Originality.ai;https://github.com/OriginalityAI/Fact-Checker-LLM-Study;factchecker.png
+Detecting Duplicate Quora Questions;Using LSTM-based architecture, with transfer learning from Tensorflow Hub's Universal Sentence Encoder for a binary classifier;https://github.com/ucheokechukwu/Detecting-Duplicate-Quora-Queries;duplicatedetector.png
+USA Wildlife Air Strikes;Data Visualizations and Dashboards with Tableau;https://github.com/ucheokechukwu/USA-Wildlife-Air-Strikes-Data-Visualizations-and-Dashboards-with-Tableau-;airstrike.png
+Ted Talk Recommender Engine;Using FAISS Semantic search and HuggingFace T5 transformers to query a Ted Talk transcript database for recommendations based on user interests. Multi-discplinary team effort;https://github.com/pokwir/Ted-Talks-Recommender-System/tree/main/SRC/T5%20RECOMMENDER;tedtalk.png

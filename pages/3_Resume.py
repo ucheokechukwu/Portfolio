@@ -1,8 +1,10 @@
 import streamlit as st
 import base64
+from sidebar import sidebar
+
 
 st.set_page_config(page_title="Resume", page_icon="📝")
-
+sidebar()
 st.title("📝 Resume")
 
 with open("backend/data/resume.pdf", "rb") as f:
@@ -16,7 +18,3 @@ with open("backend/data/resume.pdf", "rb") as f:
     
     #    <div style="display: flex; justify-content: center;"></div>
     
-contact_info = st.secrets['contact_info']
-with st.sidebar:
-    st.title("Contact Me")
-    st.markdown(contact_info, unsafe_allow_html=True)
