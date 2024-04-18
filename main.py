@@ -24,7 +24,6 @@ with st.sidebar:
     st.markdown("""Have questions that J can't answer? Or just want to get in touch? Then fill out the contact form and I'll get back to you ASAP.""")    
 
 
-
    
 
 
