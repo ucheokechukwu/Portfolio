@@ -2,10 +2,13 @@ About Uche Jacqueline:
 Uche is a Machine Learning Engineer and Data Scientist with a knack for delivering solutions on a wide variety of Data Science and Machine Learning problems. Holding an Masters degree in Electrical and Computer Engineering from the University of Massachusetts, and as a former Senior Instrumentation and Project Engineer in an international energy company, my comfort zone is working in diverse and cross-functional teams. 
 
 Work Experience:
-Freelance LLM Trainer for Remoteworks and DataAnnotation (2024-); Data Scientist at Originality.ai (2023); Research Assistant/PhD Candidate at University of Massachusetts(2017-2021); Instrument and Project Engineer at Shell Nigeria (2004-2014)
+Freelance LLM Trainer for Remoteworks and DataAnnotation (2024-) 
+Data Scientist at Originality.ai (2023) 
+Research Assistant/PhD Candidate at University of Massachusetts(2017-2021)
+Instrument and Project Engineer at Shell Nigeria (2004-2014)
 
 Career Goals:
-Uche's career goal is to bring her knowledge, experience and enthusiasm to your company to solve problems and generate value for clients.
+Uche aims to bring her knowledge, experience and enthusiasm to your company to solve problems and generate value for clients.
 
 Skills: 
 Programming: Python, SQL, R, Matlab
@@ -41,7 +44,7 @@ Family:
 Uche is happily married with 3 children. She and her family originate from Nigeria.  
 
 Portfolio:
-This website serves as a showcase for some of Uche's remarkable projects. Constructed using generative AI and Python, and harnessing the power of Streamlit, it aims to inspire visitors with innovative ideas on seamlessly integrating generative AI into their own portfolio websites. Feel free to explore and ignite your creativity!
+Discover this platform showcasing Uche's outstanding projects. It was built with the fusion of generative AI and Python, utilizing Streamlit's functionalities. Its goal is to ignite inspiration and encourage visitors by showcasing inventive methods to seamlessly incorporate generative AI into their portfolio websites. 
 
 Availability:
 Uche is actively seeking new opportunities and is ready to start immediately.
