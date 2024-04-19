@@ -5,7 +5,7 @@ from sidebar import sidebar
 
 st.set_page_config(page_title="Resume", page_icon="📝")
 sidebar()
-st.title("📝 Resume")
+st.title("My Resume")
 
 with open("backend/data/resume.pdf", "rb") as f:
     base64_pdf = base64.b64encode(f.read()).decode('utf-8')

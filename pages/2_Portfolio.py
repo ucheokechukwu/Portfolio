@@ -6,7 +6,7 @@ st.set_page_config(page_title="Portfolio", page_icon="📝", layout="wide")
 sidebar()
 _, col , _ = st.columns([1.0  , 2.0, 0.01])
 with col:
-    st.title("Featured Projects")
+    st.title("My Featured Projects")
 
 st.divider()
 col3, empty_col, col4 = st.columns([1.5, 1.0, 1.5])

@@ -5,14 +5,12 @@ from sidebar import sidebar
 import time
 
 st.set_page_config(page_title="Home", page_icon="🏡")
-
 sidebar()
 
-################
-
-st.header("Uche Jacqueline Okechukwu")
+_, col , _ = st.columns([0.1  , 1.0, 0.01])
+with col:
+    st.title("Uche Jacqueline Okechukwu")
 st.info("Machine Learning Engineer | Data Scientist")
-st.divider()
 
 _stream_data = st.secrets['about_me']
 
