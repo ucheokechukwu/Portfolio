@@ -6,31 +6,42 @@ import streamlit.components.v1 as components
 from PIL import Image
 from backend.engines.query_engine import agent_invoke
 from backend.utils.helper import *
+from sidebar import sidebar
+import time
 
-### SIDEBAR ###
 st.set_page_config(page_title="Home", page_icon="🏡")
-with st.sidebar:
-    st.title("About Me")
-    st.markdown(
-    "Uche is an AI/ML Data Scientist with a knack for solving problems and passionate about using AI to drive solutions. Currently freelancing as an AI Trainer, and open to exciting opportunities.")
-    
-    st.markdown("In this app, you can:")
-    
-    st.markdown("""
-    - Ask my AI Assistant J about me.
-    - Check out the projects in my portfolio.
-    - Browse through my resume. """)
-    
-    st.markdown("""Have questions that J can't answer? Or just want to get in touch? Then fill out the contact form and I'll get back to you ASAP.""")    
 
+sidebar()
 
-   
+################
+
+st.header("Uche Jacqueline Okechukwu")
+st.info("Machine Learning Engineer | Data Scientist")
+st.divider()
+
+_stream_data = st.secrets['about_me']
+
+def stream_data():
+    for word in _stream_data.split(" "):
+        yield word + " "
+        time.sleep(0.2)
+
+_, _, col3 , _, _ = st.columns(5)
+
+with col3:
+    center_button = st.button("Who is Uche?", key="info")
+
+if center_button:
+    # Call the write_stream function here
+    st.write_stream(stream_data)    
+
+st.divider()   
 
 
 
 ############ ---- CHATBOT ----- ################
 st.info(
-    "👋 I am J, Uche's 🤖 assistant."
+    "👋 I am J-Bot, Uche's 🤖 assistant."
 )
 
 if "messages" not in st.session_state:
