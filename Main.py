@@ -21,9 +21,9 @@ def stream_data():
         yield word + " "
         time.sleep(0.2)
 
-_, _, col3 , _, _ = st.columns(5)
+_, _, col , _, _ = st.columns(5)
 
-with col3:
+with col:
     center_button = st.button("Who is Uche?", key="info")
 
 if center_button:

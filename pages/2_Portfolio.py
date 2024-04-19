@@ -4,8 +4,11 @@ from sidebar import sidebar
 st.set_page_config(page_title="Portfolio", page_icon="📝", layout="wide")
 
 sidebar()
-st.header("Featured Projects")
+_, col , _ = st.columns([1.0  , 2.0, 0.01])
+with col:
+    st.title("Featured Projects")
 
+st.divider()
 col3, empty_col, col4 = st.columns([1.5, 1.0, 1.5])
 
 df = pandas.read_csv("backend/data/projects.csv", sep=";")
